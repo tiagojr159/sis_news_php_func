@@ -1,0 +1,2365 @@
+
+            
+
+        2020-05-16 12:47:33	
+        INSERT INTO jornalista (telefone,email,senha,situacao,comentario,nome) VALUES ('66666','','123','PG','','Tiago')
+            
+
+        2020-05-16 12:47:46	
+        INSERT INTO jornalista (telefone,email,senha,situacao,comentario,nome) VALUES ('66666','','123','PG','','Tiago')
+            
+
+        2020-05-16 12:52:58	
+        INSERT INTO jornalista (telefone,email,senha,situacao,comentario,nome) VALUES ('66666','','123','PG','','Tiago')
+            
+
+        2020-05-16 12:53:17	
+        INSERT INTO jornalista (telefone,email,senha,situacao,comentario,nome) VALUES ('66666','','123','PG','','Tiago')
+            
+
+        2020-05-16 12:55:30	
+        INSERT INTO jornalista (telefone,email,senha,situacao,comentario,nome) VALUES ('1111','11','123','PG','','aaa')
+            
+
+        2020-05-16 13:29:14	
+        UPDATE  jornalista SET  telefone='1111', email='11', senha='123', situacao='BK, comentario='foi bloqueado', nome='aaa'  WHERE id=7
+            
+
+        2020-05-16 13:30:01	
+        UPDATE  jornalista SET  telefone='1111', email='11', senha='123', situacao='BK', comentario='foi bloqueado', nome='aaa'  WHERE id=7
+            
+
+        2020-05-16 13:30:55	
+        UPDATE  jornalista SET  telefone='1111', email='11', senha='123', situacao='PG', comentario='teste', nome='aaa'  WHERE id=7
+            
+
+        2020-05-16 13:31:15	
+        UPDATE  jornalista SET  telefone='1111', email='11', senha='123', situacao='BK', comentario='foi problemado', nome='aaa'  WHERE id=7
+            
+
+        2020-05-16 13:36:03	
+        UPDATE  jornalista SET  telefone='1111', email='11', senha='123', situacao='BK', comentario='', nome='aaa'  WHERE id=7
+            
+
+        2020-05-16 13:36:55	
+        UPDATE  jornalista SET  telefone='1111', email='11', senha='123', situacao='BK', comentario='', nome='aaa'  WHERE id=7
+            
+
+        2020-05-16 13:37:22	
+        UPDATE  jornalista SET  telefone='1111', email='11', senha='123', situacao='BK', comentario='', nome='aaa'  WHERE id=7
+            
+
+        2020-05-16 13:38:05	
+        UPDATE  jornalista SET  telefone='111111111112', email='11', senha='123', situacao='BK', comentario='', nome='aaa'  WHERE id=7
+            
+
+        2020-05-16 13:43:58	
+        UPDATE  noticia SET estado='S' WHERE id=5
+            
+
+        2020-05-16 13:44:50	
+        INSERT INTO noticia (titulo,texto,data,autor,alias,veracidade) VALUES ('Atacadão permite a entrada apenas de 1 pessoa por familia','O Atacadão de igarassu O Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassu','2020-05-16 06:05:50','','2020_05_16_06_05_50_Atacadao_permite_a_entrada_apenas_de_1_pessoa_por_familia','N')
+            
+
+        2020-05-16 13:45:05	
+        INSERT INTO noticia (titulo,texto,data,autor,alias,veracidade) VALUES ('Atacadão permite a entrada apenas de 1 pessoa por familia','O Atacadão de igarassu O Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassu','2020-05-16 06:05:05','','2020_05_16_06_05_05_Atacadao_permite_a_entrada_apenas_de_1_pessoa_por_familia','N')
+            
+
+        2020-05-16 13:48:21	
+        INSERT INTO noticia (titulo,texto,data,autor,alias,veracidade) VALUES ('Atacadão permite a entrada apenas de 1 pessoa por familia','O Atacadão de igarassu O Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassu','2020-05-16 06:05:21','2','2020_05_16_06_05_21_Atacadao_permite_a_entrada_apenas_de_1_pessoa_por_familia','N')
+            
+
+        2020-05-16 14:00:18	
+        UPDATE  noticia SET estado='N' WHERE id=8
+            
+
+        2020-05-16 14:00:20	
+        UPDATE  noticia SET estado='N' WHERE id=9
+            
+
+        2020-05-16 23:43:51	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (7,'2020/05/16',1)
+            
+
+        2020-05-16 23:44:04	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='6'
+            
+
+        2020-05-16 23:46:56	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='6'
+            
+
+        2020-05-16 23:48:27	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='6'
+            
+
+        2020-05-16 23:48:56	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='6'
+            
+
+        2020-05-16 23:49:00	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='6'
+            
+
+        2020-05-16 23:49:30	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='6'
+            
+
+        2020-05-16 23:49:31	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='6'
+            
+
+        2020-05-16 23:49:33	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='6'
+            
+
+        2020-05-16 23:50:29	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='6'
+            
+
+        2020-05-16 23:51:04	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='6'
+            
+
+        2020-05-16 23:55:30	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='6'
+            
+
+        2020-05-17 00:00:19	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (7,'2020/05/17',1)
+            
+
+        2020-05-17 01:54:54	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='7'
+            
+
+        2020-05-17 02:03:43	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='7'
+            
+
+        2020-05-17 02:08:53	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='7'
+            
+
+        2020-05-17 02:09:42	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='7'
+            
+
+        2020-05-17 02:10:11	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='7'
+            
+
+        2020-05-17 02:10:35	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='7'
+            
+
+        2020-05-17 02:11:02	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='7'
+            
+
+        2020-05-17 02:11:20	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='7'
+            
+
+        2020-05-17 02:11:31	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='7'
+            
+
+        2020-05-17 02:11:46	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='7'
+            
+
+        2020-05-17 02:11:58	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='7'
+            
+
+        2020-05-17 02:12:07	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='7'
+            
+
+        2020-05-17 02:12:31	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='7'
+            
+
+        2020-05-17 02:13:08	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='7'
+            
+
+        2020-05-17 02:14:43	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='7'
+            
+
+        2020-05-17 02:14:46	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='7'
+            
+
+        2020-05-17 02:15:11	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='7'
+            
+
+        2020-05-17 02:15:24	
+        UPDATE  noticia_visita SET  contador='19'      WHERE id='7'
+            
+
+        2020-05-17 02:15:54	
+        UPDATE  noticia_visita SET  contador='20'      WHERE id='7'
+            
+
+        2020-05-17 02:16:27	
+        UPDATE  noticia_visita SET  contador='21'      WHERE id='7'
+            
+
+        2020-05-17 02:16:42	
+        UPDATE  noticia_visita SET  contador='22'      WHERE id='7'
+            
+
+        2020-05-17 02:18:44	
+        UPDATE  noticia_visita SET  contador='23'      WHERE id='7'
+            
+
+        2020-05-17 00:08:05	
+        UPDATE  noticia_visita SET  contador='24'      WHERE id='7'
+            
+
+        2020-05-17 00:17:39	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (9,'2020/05/17',1)
+            
+
+        2020-05-17 00:17:54	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (6,'2020/05/17',1)
+            
+
+        2020-05-17 00:31:13	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='9'
+            
+
+        2020-05-17 05:31:53	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('2','6','N','2020-05-17 05:05:52','20200517053152.jpg')
+            
+
+        2020-05-17 05:39:05	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('2','','N','2020-05-17 05:05:04','202005170539040.jpg')
+            
+
+        2020-05-17 00:40:58	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='9'
+            
+
+        2020-05-17 05:41:15	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('2','6','N','2020-05-17 05:05:15','202005170541150.jpg')
+            
+
+        2020-05-17 00:46:01	
+        UPDATE  noticia SET titulo='Coronavirus interrope funcionamento do atacao', texto='O Atacadão de igarassu O Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassu'  WHERE id=9
+            
+
+        2020-05-17 00:46:32	
+        UPDATE  jornalista SET  telefone='81935431344', email='', senha='123', situacao='PG', comentario='', nome='Tiago'  WHERE id=6
+            
+
+        2020-05-17 00:47:27	
+        UPDATE  noticia SET titulo='Ataquedão segue em esquema especial', texto='O Atacadão de igarassu O Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassu'  WHERE id=8
+            
+
+        2020-05-17 00:47:44	
+        UPDATE  noticia SET titulo='﻿﻿Atacadão segue em esquema especial', texto='O Atacadão de igarassu O Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassu'  WHERE id=8
+            
+
+        2020-05-17 00:47:56	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='8'
+            
+
+        2020-05-17 05:48:11	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','9','N','2020-05-17 05:05:11','202005170548110.jpg')
+            
+
+        2020-05-17 05:48:12	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','9','N','2020-05-17 05:05:11','202005170548111.jpg')
+            
+
+        2020-05-17 05:48:12	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','9','N','2020-05-17 05:05:11','202005170548112.jpg')
+            
+
+        2020-05-17 00:48:31	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='8'
+            
+
+        2020-05-17 00:48:34	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='8'
+            
+
+        2020-05-17 00:49:18	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='9'
+            
+
+        2020-05-17 00:59:49	
+        INSERT INTO noticia (titulo,texto,data,autor,alias,veracidade) VALUES ('Numero de mortos de corona virus em igarassu chega a 25','Numero de mortos de corona virus em igarassu chega a 25Numero de mortos de corona virus em igarassu chega a 25Numero de mortos de corona virus em igarassu chega a 25Numero de mortos de corona virus em igarassu chega a 25Numero de mortos de corona virus em igarassu chega a 25Numero de mortos de corona virus em igarassu chega a 25Numero de mortos de corona virus em igarassu chega a 25','2020-05-17 05:05:49','6','2020_05_17_05_05_49_Numero_de_mortos_de_corona_virus_em_igarassu_chega_a_25','N')
+            
+
+        2020-05-17 01:00:13	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (10,'2020/05/17',1)
+            
+
+        2020-05-17 01:00:18	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='10'
+            
+
+        2020-05-17 01:08:33	
+        INSERT INTO noticia (titulo,texto,data,autor,alias,veracidade) VALUES ('Numero de infectados chegar a 146','Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146Numero de infectados chegar a 146','2020-05-17 06:05:33','6','2020_05_17_06_05_33_Numero_de_infectados_chegar_a_146','N')
+            
+
+        2020-05-17 01:08:47	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (11,'2020/05/17',1)
+            
+
+        2020-05-17 01:08:58	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='11'
+            
+
+        2020-05-17 01:09:41	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='9'
+            
+
+        2020-05-17 01:10:54	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='9'
+            
+
+        2020-05-17 01:11:43	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='9'
+            
+
+        2020-05-17 01:16:03	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='9'
+            
+
+        2020-05-17 01:19:00	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='9'
+            
+
+        2020-05-17 01:20:20	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='11'
+            
+
+        2020-05-17 01:20:28	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='11'
+            
+
+        2020-05-17 01:20:32	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='11'
+            
+
+        2020-05-17 06:58:43	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','3','N','2020-05-17 06:05:43','20200517065843.jpg')
+            
+
+        2020-05-17 02:01:41	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','7','N','2020-05-17 02:05:41','20200517020141.jpg')
+            
+
+        2020-05-17 02:16:50	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','7','U','2020-05-17 02:05:50','20200517021650.jpg')
+            
+
+        2020-05-17 02:24:38	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','1','U','2020-05-17 02:05:38','20200517022438.jpg')
+            
+
+        2020-05-17 02:37:42	
+        UPDATE  noticia_visita SET  contador='25'      WHERE id='7'
+            
+
+        2020-05-17 02:38:01	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','7','N','2020-05-17 02:05:01','202005170238010.jpg')
+            
+
+        2020-05-17 02:38:10	
+        UPDATE  noticia_visita SET  contador='26'      WHERE id='7'
+            
+
+        2020-05-17 02:51:08	
+        UPDATE  noticia_visita SET  contador='27'      WHERE id='7'
+            
+
+        2020-05-17 02:51:34	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','7','N','2020-05-17 02:05:34','202005170251340.jpg')
+            
+
+        2020-05-17 02:52:30	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','7','N','2020-05-17 02:05:30','202005170252300.jpg')
+            
+
+        2020-05-17 03:20:56	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='9'
+            
+
+        2020-05-17 03:21:28	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','6','N','2020-05-17 03:05:27','20200517032127.jpg')
+            
+
+        2020-05-17 03:21:47	
+        UPDATE  noticia_visita SET  contador='28'      WHERE id='7'
+            
+
+        2020-05-17 03:22:20	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','7','N','2020-05-17 03:05:18','20200517032218.jpg')
+            
+
+        2020-05-17 03:27:26	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (4,'2020/05/17',1)
+            
+
+        2020-05-17 03:27:31	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='12'
+            
+
+        2020-05-17 03:27:34	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='12'
+            
+
+        2020-05-17 03:27:36	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='12'
+            
+
+        2020-05-17 03:27:42	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='12'
+            
+
+        2020-05-17 03:27:58	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='9'
+            
+
+        2020-05-17 03:42:25	
+        UPDATE  noticia_visita SET  contador='29'      WHERE id='7'
+            
+
+        2020-05-17 11:36:24	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (8,'2020/05/17',1)
+            
+
+        2020-05-17 11:39:11	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','8','N','2020-05-17 11:05:11','202005171139110.jpg')
+            
+
+        2020-05-17 11:39:40	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='8'
+            
+
+        2020-05-17 11:39:53	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','9','N','2020-05-17 11:05:52','202005171139520.jpg')
+            
+
+        2020-05-17 11:40:49	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='10'
+            
+
+        2020-05-17 11:41:00	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','10','N','2020-05-17 11:05:58','202005171140580.jpg')
+            
+
+        2020-05-17 11:41:47	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='11'
+            
+
+        2020-05-17 11:42:05	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('6','11','N','2020-05-17 11:05:04','202005171142040.jpg')
+            
+
+        2020-05-17 13:37:13	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (0,'2020/05/17',1)
+            
+
+        2020-05-17 13:37:50	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='14'
+            
+
+        2020-05-17 13:38:51	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='10'
+            
+
+        2020-05-17 13:40:51	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='10'
+            
+
+        2020-05-17 13:42:26	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='10'
+            
+
+        2020-05-17 13:43:12	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='10'
+            
+
+        2020-05-17 13:43:55	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='10'
+            
+
+        2020-05-17 13:45:13	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='10'
+            
+
+        2020-05-17 13:46:58	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='10'
+            
+
+        2020-05-17 13:47:42	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='10'
+            
+
+        2020-05-17 13:48:21	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='10'
+            
+
+        2020-05-17 13:48:47	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='10'
+            
+
+        2020-05-17 13:49:22	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='10'
+            
+
+        2020-05-17 13:53:19	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='10'
+            
+
+        2020-05-17 14:21:09	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='10'
+            
+
+        2020-05-17 14:21:56	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='10'
+            
+
+        2020-05-17 14:22:48	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='10'
+            
+
+        2020-05-17 15:32:53	
+        UPDATE  jornalista SET  telefone='11111111111', email='11', senha='123', situacao='JA', comentario='liberado', nome='iradu'  WHERE id=7
+            
+
+        2020-05-17 15:34:47	
+        INSERT INTO noticia (titulo,texto,data,autor,alias,veracidade) VALUES ('Numero Estrada de manjo está intransitavel','Numero Estrada de manjo está intransitavelNumero Estrada de manjo está intransitavelNumero Estrada de manjo está intransitavelNumero Estrada de manjo está intransitavelNumero Estrada de manjo está intransitavelNumero Estrada de manjo está intransitavel','2020-05-17 08:05:47','7','2020_05_17_08_05_47_Numero_Estrada_de_manjo_esta_intransitavel','N')
+            
+
+        2020-05-17 15:34:58	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (12,'2020/05/17',1)
+            
+
+        2020-05-17 15:35:04	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='15'
+            
+
+        2020-05-17 15:35:09	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='15'
+            
+
+        2020-05-17 15:35:38	
+        INSERT INTO noticia (titulo,texto,data,autor,alias,veracidade) VALUES ('Carreta é puxado por trator em manjope','Carreta é puxado por trator em manjopeCarreta é puxado por trator em manjopeCarreta é puxado por trator em manjopeCarreta é puxado por trator em manjopeCarreta é puxado por trator em manjopeCarreta é puxado por trator em manjopeCarreta é puxado por trator em manjopeCarreta é puxado por trator em manjope','2020-05-17 08:05:38','7','2020_05_17_08_05_38_Carreta_e_puxado_por_trator_em_manjope','N')
+            
+
+        2020-05-17 15:36:05	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='15'
+            
+
+        2020-05-17 15:36:19	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (13,'2020/05/17',1)
+            
+
+        2020-05-17 15:36:24	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='16'
+            
+
+        2020-05-17 15:36:25	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='16'
+            
+
+        2020-05-17 15:36:28	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='16'
+            
+
+        2020-05-17 15:44:43	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='16'
+            
+
+        2020-05-17 15:44:48	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='16'
+            
+
+        2020-05-17 15:45:05	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='16'
+            
+
+        2020-05-17 15:45:20	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='16'
+            
+
+        2020-05-17 15:47:07	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='16'
+            
+
+        2020-05-17 15:47:21	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='16'
+            
+
+        2020-05-17 15:48:06	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='16'
+            
+
+        2020-05-17 15:48:17	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='16'
+            
+
+        2020-05-17 15:57:56	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('7','6','U','2020-05-17 03:05:56','20200517155756.jpg')
+            
+
+        2020-05-17 15:58:50	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('7','7','U','2020-05-17 03:05:49','20200517155849.jpg')
+            
+
+        2020-05-17 16:04:58	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='11'
+            
+
+        2020-05-17 16:07:31	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='11'
+            
+
+        2020-05-17 16:14:30	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='16'
+            
+
+        2020-05-17 21:10:06	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='14'
+            
+
+        2020-05-17 21:14:51	
+        UPDATE  noticia SET estado='S' WHERE id=3
+            
+
+        2020-05-17 21:14:57	
+        UPDATE  noticia SET estado='S' WHERE id=8
+            
+
+        2020-05-17 21:14:59	
+        UPDATE  noticia SET estado='S' WHERE id=9
+            
+
+        2020-05-17 21:15:02	
+        UPDATE  noticia SET estado='S' WHERE id=7
+            
+
+        2020-05-17 21:15:05	
+        UPDATE  noticia SET estado='S' WHERE id=10
+            
+
+        2020-05-17 21:15:09	
+        UPDATE  noticia SET estado='S' WHERE id=11
+            
+
+        2020-05-17 21:15:12	
+        UPDATE  noticia SET estado='S' WHERE id=13
+            
+
+        2020-05-17 21:15:14	
+        UPDATE  noticia SET estado='S' WHERE id=12
+            
+
+        2020-05-17 21:18:32	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='16'
+            
+
+        2020-05-17 21:22:00	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='13'
+            
+
+        2020-05-17 21:22:16	
+        UPDATE  noticia SET titulo='Atacadão segue em esquema especial', texto='O Atacadão de igarassu O Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassuO Atacadão de igarassu'  WHERE id=8
+            
+
+        2020-05-17 21:23:40	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='14'
+            
+
+        2020-05-17 21:31:38	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='14'
+            
+
+        2020-05-17 21:31:41	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='14'
+            
+
+        2020-05-17 22:44:12	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='14'
+            
+
+        2020-05-17 23:16:06	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='14'
+            
+
+        2020-05-17 23:37:39	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='14'
+            
+
+        2020-05-17 23:39:16	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='14'
+            
+
+        2020-05-17 23:40:25	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='14'
+            
+
+        2020-05-17 23:41:55	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='14'
+            
+
+        2020-05-17 23:42:49	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='14'
+            
+
+        2020-05-17 23:43:26	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='14'
+            
+
+        2020-05-17 23:50:10	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='14'
+            
+
+        2020-05-17 23:52:27	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (,'2020/05/17',1)
+            
+
+        2020-05-17 23:52:44	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='14'
+            
+
+        2020-05-17 23:53:01	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='14'
+            
+
+        2020-05-17 23:54:02	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='14'
+            
+
+        2020-05-18 00:00:02	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (0,'2020/05/18',1)
+            
+
+        2020-05-18 00:00:05	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='17'
+            
+
+        2020-05-18 00:00:35	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='17'
+            
+
+        2020-05-18 00:00:43	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='17'
+            
+
+        2020-05-18 00:01:28	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='17'
+            
+
+        2020-05-18 00:02:23	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='17'
+            
+
+        2020-05-18 00:03:25	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='17'
+            
+
+        2020-05-18 00:04:34	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='17'
+            
+
+        2020-05-18 00:04:41	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='17'
+            
+
+        2020-05-18 00:04:59	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='17'
+            
+
+        2020-05-18 00:05:05	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='17'
+            
+
+        2020-05-18 00:05:26	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='17'
+            
+
+        2020-05-18 00:06:29	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='17'
+            
+
+        2020-05-18 00:06:55	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('7','0','N','2020-05-18 12:05:55','202005180006550.jpg')
+            
+
+        2020-05-18 00:07:03	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='17'
+            
+
+        2020-05-18 00:07:16	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='17'
+            
+
+        2020-05-18 00:09:38	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='17'
+            
+
+        2020-05-18 00:10:48	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (7,'2020/05/18',1)
+            
+
+        2020-05-18 00:12:10	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo) VALUES ('7','7','N','2020-05-18 12:05:10','202005180012100.jpg')
+            
+
+        2020-05-18 00:12:17	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='18'
+            
+
+        2020-05-18 00:18:54	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (11,'2020/05/18',1)
+            
+
+        2020-05-18 00:19:07	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='19'
+            
+
+        2020-05-18 00:19:11	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='19'
+            
+
+        2020-05-18 00:19:14	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='19'
+            
+
+        2020-05-18 00:19:15	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='19'
+            
+
+        2020-05-18 00:19:16	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='19'
+            
+
+        2020-05-18 00:19:17	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='19'
+            
+
+        2020-05-18 00:19:18	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='19'
+            
+
+        2020-05-18 00:19:18	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='19'
+            
+
+        2020-05-18 00:19:19	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='19'
+            
+
+        2020-05-18 00:19:42	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (4,'2020/05/18',1)
+            
+
+        2020-05-18 00:19:46	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='20'
+            
+
+        2020-05-18 00:19:48	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='20'
+            
+
+        2020-05-18 00:19:48	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='20'
+            
+
+        2020-05-18 00:19:49	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='20'
+            
+
+        2020-05-18 00:46:44	
+        UPDATE  noticia SET estado='S' WHERE id=23
+            
+
+        2020-05-18 00:46:46	
+        UPDATE  noticia SET estado='S' WHERE id=23
+            
+
+        2020-05-18 00:47:20	
+        UPDATE  noticia SET estado='S' WHERE id=23
+            
+
+        2020-05-18 00:47:26	
+        UPDATE  noticia SET estado='N' WHERE id=23
+            
+
+        2020-05-18 00:47:31	
+        UPDATE  noticia SET estado='S' WHERE id=23
+            
+
+        2020-05-18 00:47:48	
+        UPDATE  noticia SET estado='N' WHERE id=23
+            
+
+        2020-05-18 00:48:33	
+        UPDATE  noticia SET estado='N' WHERE id=23
+            
+
+        2020-05-18 00:48:43	
+        UPDATE  noticia SET estado='S' WHERE id=23
+            
+
+        2020-05-18 00:48:46	
+        UPDATE  noticia SET estado='N' WHERE id=22
+            
+
+        2020-05-18 00:49:23	
+        UPDATE  imagem SET estado='N' WHERE id=23
+            
+
+        2020-05-18 00:50:07	
+        UPDATE  imagem SET estado='N' WHERE id=22
+            
+
+        2020-05-18 00:50:55	
+        UPDATE  imagem SET estado='S' WHERE id=23
+            
+
+        2020-05-18 00:51:50	
+        UPDATE  imagem SET estado='S' WHERE id=23
+            
+
+        2020-05-18 00:52:30	
+        UPDATE  imagem SET estado='S' WHERE id=22
+            
+
+        2020-05-18 00:52:48	
+        UPDATE  imagem SET estado='S' WHERE id=22
+            
+
+        2020-05-18 00:53:34	
+        UPDATE  imagem SET exibir='S' WHERE id=23
+            
+
+        2020-05-18 00:53:38	
+        UPDATE  imagem SET exibir='S' WHERE id=22
+            
+
+        2020-05-18 00:53:40	
+        UPDATE  imagem SET exibir='S' WHERE id=21
+            
+
+        2020-05-18 00:53:44	
+        UPDATE  imagem SET exibir='N' WHERE id=19
+            
+
+        2020-05-18 00:53:47	
+        UPDATE  imagem SET exibir='N' WHERE id=20
+            
+
+        2020-05-18 00:54:58	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='18'
+            
+
+        2020-05-18 00:55:40	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='18'
+            
+
+        2020-05-18 00:56:10	
+        UPDATE  imagem SET exibir='N' WHERE id=21
+            
+
+        2020-05-18 00:56:18	
+        UPDATE  imagem SET exibir='N' WHERE id=15
+            
+
+        2020-05-18 00:56:22	
+        UPDATE  imagem SET exibir='N' WHERE id=13
+            
+
+        2020-05-18 00:56:30	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='18'
+            
+
+        2020-05-18 00:57:51	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='18'
+            
+
+        2020-05-18 00:58:03	
+        UPDATE  imagem SET exibir='N' WHERE id=12
+            
+
+        2020-05-18 00:58:10	
+        UPDATE  imagem SET exibir='N' WHERE id=11
+            
+
+        2020-05-18 00:58:21	
+        UPDATE  imagem SET exibir='N' WHERE id=8
+            
+
+        2020-05-18 01:08:43	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='18'
+            
+
+        2020-05-18 20:48:09	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (9,'2020/05/18',1)
+            
+
+        2020-05-18 20:49:19	
+        UPDATE  imagem SET exibir='N' WHERE id=6
+            
+
+        2020-05-18 20:49:22	
+        UPDATE  imagem SET exibir='N' WHERE id=5
+            
+
+        2020-05-18 20:49:25	
+        UPDATE  imagem SET exibir='N' WHERE id=4
+            
+
+        2020-05-18 20:53:08	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='21'
+            
+
+        2020-05-18 21:37:37	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo,exibir) VALUES ('7','1','U','2020-05-18 09:05:36','20200518213736.jpg','S')
+            
+
+        2020-05-18 21:57:36	
+        INSERT INTO imagem (id_autor,id_noticia,tipo,data,nome_arquivo,exibir) VALUES ('7','1','U','2020-05-18 09:05:36','20200518215736.jpg','S')
+            
+
+        2020-05-18 22:05:23	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (8,'2020/05/18',1)
+            
+
+        2020-05-18 22:06:05	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='22'
+            
+
+        2020-05-18 22:12:16	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='22'
+            
+
+        2020-05-18 22:12:40	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='22'
+            
+
+        2020-05-18 22:12:52	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='22'
+            
+
+        2020-05-18 22:13:22	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='22'
+            
+
+        2020-05-18 22:13:37	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='22'
+            
+
+        2020-05-18 22:14:18	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='22'
+            
+
+        2020-05-18 22:14:28	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='22'
+            
+
+        2020-05-18 22:40:42	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='22'
+            
+
+        2020-05-18 22:44:28	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='22'
+            
+
+        2020-05-18 22:44:37	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('','7','N','S','2020-05-18 10:05:37','gdfgdgdgdf')
+            
+
+        2020-05-18 22:46:13	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='22'
+            
+
+        2020-05-18 22:47:18	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('','7','N','S','2020-05-18 10:05:18','7567567')
+            
+
+        2020-05-18 22:49:44	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('7567567','7','N','S','2020-05-18 10:05:44','7567567')
+            
+
+        2020-05-18 22:50:52	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('7567567','7','N','S','2020-05-18 22:05:52','7567567')
+            
+
+        2020-05-18 22:52:28	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='22'
+            
+
+        2020-05-18 22:54:24	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='22'
+            
+
+        2020-05-18 22:56:52	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='22'
+            
+
+        2020-05-18 22:57:06	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='22'
+            
+
+        2020-05-18 22:58:05	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='22'
+            
+
+        2020-05-18 22:59:16	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='22'
+            
+
+        2020-05-18 23:01:05	
+        UPDATE  noticia_visita SET  contador='19'      WHERE id='22'
+            
+
+        2020-05-18 23:01:18	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('Texte','7','N','S','2020-05-18 23:05:18','8')
+            
+
+        2020-05-18 23:02:04	
+        UPDATE  noticia_visita SET  contador='20'      WHERE id='22'
+            
+
+        2020-05-18 23:02:14	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('comas','7','N','S','2020-05-18 23:05:14','8')
+            
+
+        2020-05-18 23:02:17	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('comas','7','N','S','2020-05-18 23:05:17','8')
+            
+
+        2020-05-18 23:02:18	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('comas','7','N','S','2020-05-18 23:05:18','8')
+            
+
+        2020-05-18 23:02:50	
+        UPDATE  noticia_visita SET  contador='21'      WHERE id='22'
+            
+
+        2020-05-18 23:03:59	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (2,'2020/05/18',1)
+            
+
+        2020-05-18 23:04:12	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('toiadfasdf','7','N','S','2020-05-18 23:05:12','2')
+            
+
+        2020-05-18 23:04:21	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('toiadfasdf5','7','N','S','2020-05-18 23:05:21','2')
+            
+
+        2020-05-18 23:04:23	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='23'
+            
+
+        2020-05-18 23:04:30	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('hghj','7','N','S','2020-05-18 23:05:30','2')
+            
+
+        2020-05-18 23:05:01	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='23'
+            
+
+        2020-05-18 23:05:07	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('cghjgghjfghjh','7','N','S','2020-05-18 23:05:07','2')
+            
+
+        2020-05-18 23:05:12	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('cghjgghjfghjh','7','N','S','2020-05-18 23:05:12','2')
+            
+
+        2020-05-18 23:05:15	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='23'
+            
+
+        2020-05-18 23:07:06	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='23'
+            
+
+        2020-05-18 23:08:06	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='23'
+            
+
+        2020-05-18 23:08:30	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='23'
+            
+
+        2020-05-18 23:08:49	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='23'
+            
+
+        2020-05-18 23:09:09	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('gadfasdfasd asdfa df adf ds','7','N','S','2020-05-18 23:05:09','2')
+            
+
+        2020-05-18 23:09:47	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='23'
+            
+
+        2020-05-18 23:09:54	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('678678678','7','N','S','2020-05-18 23:05:54','2')
+            
+
+        2020-05-18 23:10:27	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='23'
+            
+
+        2020-05-18 23:10:40	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('hdfghdfhdffggh','7','N','S','2020-05-18 23:05:40','2')
+            
+
+        2020-05-18 23:10:44	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('hjghjhfgjh','7','N','S','2020-05-18 23:05:44','2')
+            
+
+        2020-05-18 23:11:08	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='23'
+            
+
+        2020-05-18 23:11:13	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('uyuiyui','7','N','S','2020-05-18 23:05:13','2')
+            
+
+        2020-05-18 23:11:18	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('yuuii','7','N','S','2020-05-18 23:05:18','2')
+            
+
+        2020-05-18 23:12:30	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='23'
+            
+
+        2020-05-18 23:12:36	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('890890','7','N','S','2020-05-18 23:05:36','2')
+            
+
+        2020-05-18 23:12:41	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('890890','7','N','S','2020-05-18 23:05:41','2')
+            
+
+        2020-05-18 23:13:51	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='23'
+            
+
+        2020-05-18 23:13:58	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('768678678','7','N','S','2020-05-18 23:05:58','2')
+            
+
+        2020-05-18 23:14:01	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('768678678','7','N','S','2020-05-18 23:05:01','2')
+            
+
+        2020-05-18 23:14:48	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('768678678','','N','S','2020-05-18 23:05:48','2')
+            
+
+        2020-05-18 23:14:52	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='23'
+            
+
+        2020-05-18 23:15:01	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('332232','','N','S','2020-05-18 23:05:01','2')
+            
+
+        2020-05-18 23:15:57	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('332232','','N','S','2020-05-18 23:05:57','2')
+            
+
+        2020-05-18 23:16:47	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('332232','','N','S','2020-05-18 23:05:47','2')
+            
+
+        2020-05-18 23:17:44	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('332232','','N','S','2020-05-18 23:05:44','2')
+            
+
+        2020-05-19 02:28:03	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (2,'2020/05/19',1)
+            
+
+        2020-05-19 02:28:31	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='24'
+            
+
+        2020-05-19 02:28:44	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('masfad','','N','S','2020-05-19 02:05:44','2')
+            
+
+        2020-05-19 02:28:48	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('masfad','','N','S','2020-05-19 02:05:48','2')
+            
+
+        2020-05-19 02:30:30	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('masfad','','N','S','2020-05-19 02:05:30','2')
+            
+
+        2020-05-19 02:31:32	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (13,'2020/05/19',1)
+            
+
+        2020-05-19 02:31:42	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('67567','2','N','S','2020-05-19 02:05:42','13')
+            
+
+        2020-05-19 02:31:45	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('5667657','2','N','S','2020-05-19 02:05:45','13')
+            
+
+        2020-05-19 02:31:51	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('5667567','2','N','S','2020-05-19 02:05:51','13')
+            
+
+        2020-05-19 02:32:26	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('=0-=','2','N','S','2020-05-19 02:05:26','13')
+            
+
+        2020-05-19 02:32:31	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('--','2','N','S','2020-05-19 02:05:31','13')
+            
+
+        2020-05-19 02:33:18	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='25'
+            
+
+        2020-05-19 02:33:55	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='25'
+            
+
+        2020-05-19 02:34:24	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('89789','2','N','S','2020-05-19 02:05:24','13')
+            
+
+        2020-05-19 02:34:26	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('789','2','N','S','2020-05-19 02:05:26','13')
+            
+
+        2020-05-19 02:38:00	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='25'
+            
+
+        2020-05-19 02:38:01	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='25'
+            
+
+        2020-05-19 02:38:09	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('5675675667','2','N','S','2020-05-19 02:05:09','13')
+            
+
+        2020-05-19 02:38:13	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('hdhdfghfgh','2','N','S','2020-05-19 02:05:13','13')
+            
+
+        2020-05-19 23:53:14	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='25'
+            
+
+        2020-05-19 23:55:12	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='25'
+            
+
+        2020-05-19 23:55:57	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='25'
+            
+
+        2020-05-19 23:59:23	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='25'
+            
+
+        2020-05-19 23:59:38	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='25'
+            
+
+        2020-05-20 00:00:27	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (13,'2020/05/20',1)
+            
+
+        2020-05-20 00:00:40	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='26'
+            
+
+        2020-05-20 00:01:06	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='26'
+            
+
+        2020-05-20 00:06:34	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='26'
+            
+
+        2020-05-20 00:09:06	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='26'
+            
+
+        2020-05-20 00:09:40	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (2,'2020/05/20',1)
+            
+
+        2020-05-20 00:09:43	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='27'
+            
+
+        2020-05-20 00:18:52	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='27'
+            
+
+        2020-05-20 00:19:52	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='27'
+            
+
+        2020-05-20 00:20:22	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='27'
+            
+
+        2020-05-20 00:20:34	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='27'
+            
+
+        2020-05-20 00:20:55	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='27'
+            
+
+        2020-05-20 00:20:58	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='27'
+            
+
+        2020-05-20 00:21:10	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='27'
+            
+
+        2020-05-20 00:34:23	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='27'
+            
+
+        2020-05-20 00:34:34	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('3','','N','S','2020-05-20 00:05:34','2')
+            
+
+        2020-05-20 00:39:46	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='27'
+            
+
+        2020-05-20 00:43:02	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='27'
+            
+
+        2020-05-20 01:01:08	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='27'
+            
+
+        2020-05-20 01:03:39	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='27'
+            
+
+        2020-05-20 01:09:44	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='27'
+            
+
+        2020-05-20 01:10:34	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='27'
+            
+
+        2020-05-20 01:12:20	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='27'
+            
+
+        2020-05-20 01:12:44	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='27'
+            
+
+        2020-05-20 01:13:13	
+        UPDATE  noticia_visita SET  contador='19'      WHERE id='27'
+            
+
+        2020-05-20 01:13:48	
+        UPDATE  noticia_visita SET  contador='20'      WHERE id='27'
+            
+
+        2020-05-20 01:14:32	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('fghfghfgh','2','N','S','2020-05-20 01:05:32','2')
+            
+
+        2020-05-20 01:15:12	
+        UPDATE  jornalista SET  telefone='81935431344', email='', senha='123', situacao='PG', comentario='', nome='Tiago'  WHERE id=6
+            
+
+        2020-05-20 01:15:36	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (12,'2020/05/20',1)
+            
+
+        2020-05-20 01:16:24	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='28'
+            
+
+        2020-05-20 01:23:48	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='28'
+            
+
+        2020-05-20 01:24:06	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='28'
+            
+
+        2020-05-20 01:24:36	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('yutyutyu','6','N','S','2020-05-20 01:05:36','12')
+            
+
+        2020-05-20 01:24:37	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('jhfgj','6','N','S','2020-05-20 01:05:37','12')
+            
+
+        2020-05-20 01:24:40	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('gghjghj','6','N','S','2020-05-20 01:05:40','12')
+            
+
+        2020-05-20 01:24:42	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('ghjghj','6','N','S','2020-05-20 01:05:42','12')
+            
+
+        2020-05-29 02:15:28	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (11,'2020/05/29',1)
+            
+
+        2020-05-29 02:15:43	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='29'
+            
+
+        2020-05-29 02:15:49	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='29'
+            
+
+        2020-05-29 02:36:55	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='29'
+            
+
+        2020-05-29 02:37:57	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='29'
+            
+
+        2020-05-29 02:38:13	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='29'
+            
+
+        2020-05-29 02:38:29	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='29'
+            
+
+        2020-05-31 22:46:44	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (12,'2020/05/31',1)
+            
+
+        2020-05-31 22:56:31	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='30'
+            
+
+        2020-05-31 22:57:18	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='30'
+            
+
+        2020-05-31 23:32:36	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='30'
+            
+
+        2020-05-31 23:36:09	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='30'
+            
+
+        2020-05-31 23:36:56	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='30'
+            
+
+        2020-05-31 23:37:16	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='30'
+            
+
+        2020-05-31 23:38:16	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='30'
+            
+
+        2020-05-31 23:38:34	
+        UPDATE  noticia SET negativo=1 WHERE id=12
+            
+
+        2020-05-31 23:38:45	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='30'
+            
+
+        2020-05-31 23:39:05	
+        UPDATE  noticia SET positivo=1 WHERE id=12
+            
+
+        2020-05-31 23:39:46	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='30'
+            
+
+        2020-05-31 23:40:19	
+        UPDATE  noticia SET positivo=2 WHERE id=12
+            
+
+        2020-05-31 23:41:28	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='30'
+            
+
+        2020-05-31 23:41:45	
+        UPDATE  noticia SET negativo=2 WHERE id=12
+            
+
+        2020-05-31 23:41:57	
+        UPDATE  noticia SET negativo=3 WHERE id=12
+            
+
+        2020-05-31 23:42:02	
+        UPDATE  noticia SET negativo=4 WHERE id=12
+            
+
+        2020-05-31 23:42:05	
+        UPDATE  noticia SET positivo=3 WHERE id=12
+            
+
+        2020-05-31 23:42:09	
+        UPDATE  noticia SET positivo=4 WHERE id=12
+            
+
+        2020-05-31 23:44:41	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='30'
+            
+
+        2020-05-31 23:45:28	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='30'
+            
+
+        2020-05-31 23:45:52	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='30'
+            
+
+        2020-05-31 23:46:12	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='30'
+            
+
+        2020-05-31 23:46:53	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='30'
+            
+
+        2020-05-31 23:47:04	
+        UPDATE  noticia SET negativo=5 WHERE id=12
+            
+
+        2020-05-31 23:47:07	
+        UPDATE  noticia SET negativo=6 WHERE id=12
+            
+
+        2020-05-31 23:47:11	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='30'
+            
+
+        2020-05-31 23:47:39	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='30'
+            
+
+        2020-05-31 23:48:09	
+        UPDATE  noticia_visita SET  contador='19'      WHERE id='30'
+            
+
+        2020-05-31 23:49:28	
+        UPDATE  noticia_visita SET  contador='20'      WHERE id='30'
+            
+
+        2020-05-31 23:49:52	
+        UPDATE  noticia_visita SET  contador='21'      WHERE id='30'
+            
+
+        2020-05-31 23:50:43	
+        UPDATE  noticia_visita SET  contador='22'      WHERE id='30'
+            
+
+        2020-05-31 23:50:55	
+        UPDATE  noticia_visita SET  contador='23'      WHERE id='30'
+            
+
+        2020-05-31 23:51:18	
+        UPDATE  noticia_visita SET  contador='24'      WHERE id='30'
+            
+
+        2020-05-31 23:51:28	
+        UPDATE  noticia_visita SET  contador='25'      WHERE id='30'
+            
+
+        2020-05-31 23:51:42	
+        UPDATE  noticia_visita SET  contador='26'      WHERE id='30'
+            
+
+        2020-05-31 23:52:14	
+        UPDATE  noticia_visita SET  contador='27'      WHERE id='30'
+            
+
+        2020-05-31 23:52:48	
+        UPDATE  noticia_visita SET  contador='28'      WHERE id='30'
+            
+
+        2020-05-31 23:52:57	
+        UPDATE  noticia SET negativo=7 WHERE id=12
+            
+
+        2020-05-31 23:54:37	
+        UPDATE  noticia_visita SET  contador='29'      WHERE id='30'
+            
+
+        2020-05-31 23:54:44	
+        UPDATE  noticia SET negativo=8 WHERE id=12
+            
+
+        2020-05-31 23:55:00	
+        UPDATE  noticia_visita SET  contador='30'      WHERE id='30'
+            
+
+        2020-05-31 23:55:08	
+        UPDATE  noticia SET negativo=9 WHERE id=12
+            
+
+        2020-05-31 23:55:10	
+        UPDATE  noticia SET negativo=10 WHERE id=12
+            
+
+        2020-05-31 23:55:11	
+        UPDATE  noticia SET negativo=11 WHERE id=12
+            
+
+        2020-05-31 23:55:12	
+        UPDATE  noticia SET negativo=12 WHERE id=12
+            
+
+        2020-05-31 23:55:14	
+        UPDATE  noticia SET negativo=13 WHERE id=12
+            
+
+        2020-05-31 23:55:15	
+        UPDATE  noticia SET positivo=5 WHERE id=12
+            
+
+        2020-05-31 23:55:16	
+        UPDATE  noticia SET positivo=6 WHERE id=12
+            
+
+        2020-05-31 23:55:17	
+        UPDATE  noticia SET positivo=7 WHERE id=12
+            
+
+        2020-05-31 23:55:18	
+        UPDATE  noticia SET positivo=8 WHERE id=12
+            
+
+        2020-05-31 23:55:18	
+        UPDATE  noticia SET positivo=9 WHERE id=12
+            
+
+        2020-05-31 23:57:56	
+        UPDATE  noticia_visita SET  contador='31'      WHERE id='30'
+            
+
+        2020-05-31 23:58:02	
+        UPDATE  noticia SET positivo=10 WHERE id=12
+            
+
+        2020-05-31 23:58:05	
+        UPDATE  noticia SET positivo=11 WHERE id=12
+            
+
+        2020-05-31 23:58:26	
+        UPDATE  noticia_visita SET  contador='32'      WHERE id='30'
+            
+
+        2020-05-31 23:58:34	
+        UPDATE  noticia SET negativo=14 WHERE id=12
+            
+
+        2020-06-01 00:00:58	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (12,'2020/06/01',1)
+            
+
+        2020-06-01 00:01:52	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='31'
+            
+
+        2020-06-01 00:02:09	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='31'
+            
+
+        2020-06-01 00:08:42	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='31'
+            
+
+        2020-06-01 00:08:49	
+        UPDATE  comentario SET negativo=1 WHERE id=43
+            
+
+        2020-06-01 00:08:54	
+        UPDATE  comentario SET negativo=2 WHERE id=43
+            
+
+        2020-06-01 00:10:13	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='31'
+            
+
+        2020-06-01 00:10:20	
+        UPDATE  comentario SET negativo=1 WHERE id=44
+            
+
+        2020-06-01 00:10:24	
+        UPDATE  comentario SET negativo=2 WHERE id=44
+            
+
+        2020-06-01 00:10:29	
+        UPDATE  comentario SET negativo=3 WHERE id=44
+            
+
+        2020-06-01 00:10:57	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='31'
+            
+
+        2020-06-01 00:11:04	
+        UPDATE  comentario SET negativo=1 WHERE id=45
+            
+
+        2020-06-01 00:11:08	
+        UPDATE  comentario SET negativo=2 WHERE id=45
+            
+
+        2020-06-01 00:11:13	
+        UPDATE  comentario SET negativo=3 WHERE id=45
+            
+
+        2020-06-01 00:11:57	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='31'
+            
+
+        2020-06-01 00:12:09	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='31'
+            
+
+        2020-06-01 00:12:16	
+        UPDATE  comentario SET negativo=3 WHERE id=43
+            
+
+        2020-06-01 00:12:18	
+        UPDATE  comentario SET negativo=4 WHERE id=43
+            
+
+        2020-06-01 00:12:20	
+        UPDATE  comentario SET negativo=5 WHERE id=43
+            
+
+        2020-06-01 00:13:35	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='31'
+            
+
+        2020-06-01 00:13:44	
+        UPDATE  comentario SET negativo=6 WHERE id=43
+            
+
+        2020-06-01 00:13:49	
+        UPDATE  comentario SET negativo=4 WHERE id=44
+            
+
+        2020-06-01 00:13:54	
+        UPDATE  comentario SET negativo=4 WHERE id=45
+            
+
+        2020-06-01 00:14:19	
+        UPDATE  comentario SET positivo=1 WHERE id=46
+            
+
+        2020-06-01 00:15:17	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='31'
+            
+
+        2020-06-02 23:04:07	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (7,'2020/06/02',1)
+            
+
+        2020-06-02 23:04:15	
+        UPDATE  noticia SET positivo=1 WHERE id=7
+            
+
+        2020-06-02 23:04:46	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='32'
+            
+
+        2020-06-02 23:08:19	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='32'
+            
+
+        2020-06-02 23:08:34	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='32'
+            
+
+        2020-06-02 23:13:57	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='32'
+            
+
+        2020-06-02 23:17:15	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='32'
+            
+
+        2020-06-02 23:18:51	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='32'
+            
+
+        2020-06-02 23:27:46	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='32'
+            
+
+        2020-06-02 23:30:18	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='32'
+            
+
+        2020-06-02 23:32:01	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='32'
+            
+
+        2020-06-02 23:37:41	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='32'
+            
+
+        2020-06-02 23:37:57	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='32'
+            
+
+        2020-06-02 23:40:03	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='32'
+            
+
+        2020-06-02 23:40:08	
+        UPDATE  noticia SET positivo=2 WHERE id=7
+            
+
+        2020-06-03 21:20:36	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (7,'2020/06/03',1)
+            
+
+        2020-06-03 21:23:42	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='33'
+            
+
+        2020-06-03 21:24:31	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='33'
+            
+
+        2020-06-03 21:26:43	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='33'
+            
+
+        2020-06-03 21:27:16	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='33'
+            
+
+        2020-06-03 21:28:09	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='33'
+            
+
+        2020-06-03 21:36:15	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='33'
+            
+
+        2020-06-03 21:36:32	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='33'
+            
+
+        2020-06-03 21:37:32	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='33'
+            
+
+        2020-06-03 21:38:39	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='33'
+            
+
+        2020-06-03 21:39:09	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='33'
+            
+
+        2020-06-03 21:39:29	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='33'
+            
+
+        2020-06-03 21:40:16	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='33'
+            
+
+        2020-06-03 21:41:06	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='33'
+            
+
+        2020-06-03 21:41:49	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='33'
+            
+
+        2020-06-03 21:42:09	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='33'
+            
+
+        2020-06-03 21:42:34	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='33'
+            
+
+        2020-06-03 21:43:01	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='33'
+            
+
+        2020-06-03 21:43:55	
+        UPDATE  noticia_visita SET  contador='19'      WHERE id='33'
+            
+
+        2020-06-03 21:45:27	
+        UPDATE  noticia_visita SET  contador='20'      WHERE id='33'
+            
+
+        2020-06-03 21:45:39	
+        UPDATE  noticia_visita SET  contador='21'      WHERE id='33'
+            
+
+        2020-06-03 21:45:48	
+        UPDATE  noticia_visita SET  contador='22'      WHERE id='33'
+            
+
+        2020-06-03 21:48:06	
+        UPDATE  noticia_visita SET  contador='23'      WHERE id='33'
+            
+
+        2020-06-03 21:55:23	
+        UPDATE  noticia_visita SET  contador='24'      WHERE id='33'
+            
+
+        2020-06-03 21:58:23	
+        UPDATE  noticia_visita SET  contador='25'      WHERE id='33'
+            
+
+        2020-06-03 21:59:04	
+        UPDATE  noticia_visita SET  contador='26'      WHERE id='33'
+            
+
+        2020-06-03 21:59:24	
+        UPDATE  noticia_visita SET  contador='27'      WHERE id='33'
+            
+
+        2020-06-03 22:21:20	
+        UPDATE  noticia_visita SET  contador='28'      WHERE id='33'
+            
+
+        2020-06-03 22:22:17	
+        UPDATE  noticia_visita SET  contador='29'      WHERE id='33'
+            
+
+        2020-06-03 22:26:01	
+        UPDATE  noticia_visita SET  contador='30'      WHERE id='33'
+            
+
+        2020-06-03 22:27:25	
+        UPDATE  noticia_visita SET  contador='31'      WHERE id='33'
+            
+
+        2020-06-03 22:27:57	
+        UPDATE  noticia_visita SET  contador='32'      WHERE id='33'
+            
+
+        2020-06-03 22:28:20	
+        UPDATE  noticia_visita SET  contador='33'      WHERE id='33'
+            
+
+        2020-06-03 22:28:31	
+        UPDATE  noticia SET positivo=3 WHERE id=7
+            
+
+        2020-06-03 22:30:28	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (10,'2020/06/03',1)
+            
+
+        2020-06-03 22:30:34	
+        UPDATE  noticia SET positivo=1 WHERE id=10
+            
+
+        2020-06-03 22:30:48	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('essa noticia eh falsa','2','N','S','2020-06-03 22:06:48','10')
+            
+
+        2020-06-03 22:30:55	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('eu acho','2','N','S','2020-06-03 22:06:55','10')
+            
+
+        2020-06-03 22:31:02	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('hehehehe','2','N','S','2020-06-03 22:06:02','10')
+            
+
+        2020-06-03 22:31:06	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='34'
+            
+
+        2020-06-03 22:31:41	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='34'
+            
+
+        2020-06-03 22:31:59	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='34'
+            
+
+        2020-06-03 22:32:03	
+        UPDATE  comentario SET positivo=1 WHERE id=47
+            
+
+        2020-06-03 22:32:07	
+        UPDATE  comentario SET negativo=1 WHERE id=48
+            
+
+        2020-06-03 22:32:12	
+        UPDATE  comentario SET negativo=1 WHERE id=49
+            
+
+        2020-06-03 22:38:13	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='34'
+            
+
+        2020-06-03 22:39:19	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='34'
+            
+
+        2020-06-03 22:40:44	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='34'
+            
+
+        2020-06-03 22:41:13	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='34'
+            
+
+        2020-06-03 22:41:46	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='34'
+            
+
+        2020-06-03 22:41:59	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='34'
+            
+
+        2020-06-03 22:42:22	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='34'
+            
+
+        2020-06-03 22:42:41	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='34'
+            
+
+        2020-06-03 22:43:40	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='34'
+            
+
+        2020-06-03 22:44:06	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='34'
+            
+
+        2020-06-03 22:45:27	
+        UPDATE  noticia_visita SET  contador='34'      WHERE id='33'
+            
+
+        2020-06-03 22:45:37	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='34'
+            
+
+        2020-06-03 22:47:02	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='34'
+            
+
+        2020-06-03 22:48:25	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='34'
+            
+
+        2020-06-03 22:52:49	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='34'
+            
+
+        2020-06-03 22:53:07	
+        UPDATE  noticia_visita SET  contador='19'      WHERE id='34'
+            
+
+        2020-06-03 22:53:17	
+        UPDATE  noticia_visita SET  contador='20'      WHERE id='34'
+            
+
+        2020-06-03 22:53:52	
+        UPDATE  noticia_visita SET  contador='21'      WHERE id='34'
+            
+
+        2020-06-03 23:01:51	
+        UPDATE  noticia_visita SET  contador='22'      WHERE id='34'
+            
+
+        2020-06-06 01:02:29	
+        INSERT INTO noticia_visita (id_noticia,data,contador) VALUES (11,'2020/06/06',1)
+            
+
+        2020-06-06 01:04:35	
+        UPDATE  noticia_visita SET  contador='2'      WHERE id='35'
+            
+
+        2020-06-06 01:04:42	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('oi','2','N','S','2020-06-06 01:06:42','11')
+            
+
+        2020-06-06 01:04:50	
+        INSERT INTO comentario (texto,id_autor,tipo,exibir,data,id_publicacao) VALUES ('oiiiii','2','N','S','2020-06-06 01:06:50','11')
+            
+
+        2020-06-06 01:04:52	
+        UPDATE  noticia_visita SET  contador='3'      WHERE id='35'
+            
+
+        2020-06-06 01:15:16	
+        UPDATE  noticia_visita SET  contador='4'      WHERE id='35'
+            
+
+        2020-06-06 02:13:51	
+        UPDATE  noticia_visita SET  contador='5'      WHERE id='35'
+            
+
+        2020-06-06 02:15:20	
+        UPDATE  noticia_visita SET  contador='6'      WHERE id='35'
+            
+
+        2020-06-06 02:16:35	
+        UPDATE  noticia_visita SET  contador='7'      WHERE id='35'
+            
+
+        2020-06-06 02:17:09	
+        UPDATE  noticia_visita SET  contador='8'      WHERE id='35'
+            
+
+        2020-06-06 02:17:10	
+        UPDATE  noticia_visita SET  contador='9'      WHERE id='35'
+            
+
+        2020-06-06 02:17:10	
+        UPDATE  noticia_visita SET  contador='10'      WHERE id='35'
+            
+
+        2020-06-06 02:17:10	
+        UPDATE  noticia_visita SET  contador='11'      WHERE id='35'
+            
+
+        2020-06-06 02:17:13	
+        UPDATE  noticia_visita SET  contador='12'      WHERE id='35'
+            
+
+        2020-06-06 02:19:37	
+        UPDATE  noticia_visita SET  contador='13'      WHERE id='35'
+            
+
+        2020-06-06 02:20:41	
+        UPDATE  noticia_visita SET  contador='14'      WHERE id='35'
+            
+
+        2020-06-06 02:36:02	
+        UPDATE  noticia_visita SET  contador='15'      WHERE id='35'
+            
+
+        2020-06-06 03:23:11	
+        UPDATE  noticia_visita SET  contador='16'      WHERE id='35'
+            
+
+        2020-06-06 03:23:32	
+        INSERT INTO denuncia (texto,id_publicacao,tipo,exibir,data,numero) VALUES ('','11','NOTICIA','S','2020-06-06 03:06:32','45345345')
+            
+
+        2020-06-06 03:24:07	
+        UPDATE  noticia_visita SET  contador='17'      WHERE id='35'
+            
+
+        2020-06-06 03:24:08	
+        UPDATE  noticia_visita SET  contador='18'      WHERE id='35'
+            
+
+        2020-06-06 03:24:12	
+        UPDATE  noticia_visita SET  contador='19'      WHERE id='35'
+            
+
+        2020-06-06 03:24:12	
+        UPDATE  noticia_visita SET  contador='20'      WHERE id='35'
+            
+
+        2020-06-06 03:24:25	
+        INSERT INTO denuncia (texto,id_publicacao,tipo,exibir,data,numero) VALUES ('','11','NOTICIA','S','2020-06-06 03:06:25','435345')
+            
+
+        2020-06-06 03:25:12	
+        INSERT INTO denuncia (texto,id_publicacao,tipo,exibir,data,numero) VALUES ('','11','NOTICIA','S','2020-06-06 03:06:12','435345')
+            
+
+        2020-06-06 03:26:17	
+        INSERT INTO denuncia (texto,id_publicacao,tipo,exibir,data,numero) VALUES ('','11','NOTICIA','S','2020-06-06 03:06:17','435345')
+            
+
+        2020-06-06 03:28:22	
+        INSERT INTO denuncia (texto,id_publicacao,tipo,exibir,data,numero) VALUES ('435345','11','NOTICIA','S','2020-06-06 03:06:22','435345')
+            
+
+        2020-06-06 03:28:24	
+        INSERT INTO denuncia (texto,id_publicacao,tipo,exibir,data,numero) VALUES ('435345','11','NOTICIA','S','2020-06-06 03:06:24','435345')
+            
+
+        2020-06-06 03:28:32	
+        INSERT INTO denuncia (texto,id_publicacao,tipo,exibir,data,numero) VALUES ('435345','11','NOTICIA','S','2020-06-06 03:06:32','435345')
+            
+
+        2020-06-06 03:29:21	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,exibir,data,numero) VALUES ('435345','11','NOTICIA','S','2020-06-06 03:06:21','435345')
+            
+
+        2020-06-06 03:29:30	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,exibir,data,numero) VALUES ('435345','11','NOTICIA','S','2020-06-06 03:06:30','435345')
+            
+
+        2020-06-06 03:30:17	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,estado,data,numero) VALUES ('435345','11','NOTICIA','S','2020-06-06 03:06:17','435345')
+            
+
+        2020-06-06 03:30:27	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,estado,data,numero) VALUES ('435345','11','NOTICIA','S','2020-06-06 03:06:27','435345')
+            
+
+        2020-06-06 03:30:57	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,estado,data,telefone) VALUES ('435345','11','NOTICIA','S','2020-06-06 03:06:57','435345')
+            
+
+        2020-06-06 03:32:48	
+        UPDATE  noticia_visita SET  contador='21'      WHERE id='35'
+            
+
+        2020-06-06 03:35:04	
+        UPDATE  noticia_visita SET  contador='22'      WHERE id='35'
+            
+
+        2020-06-06 03:35:16	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,estado,data,telefone) VALUES ('grtgrtg','51','NOTICIA','S','2020-06-06 03:06:16','343434')
+            
+
+        2020-06-06 03:35:51	
+        UPDATE  noticia_visita SET  contador='23'      WHERE id='35'
+            
+
+        2020-06-06 03:35:59	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,estado,data,telefone) VALUES ('3434','51','NOTICIA','S','2020-06-06 03:06:59','43434')
+            
+
+        2020-06-06 03:37:51	
+        UPDATE  noticia_visita SET  contador='24'      WHERE id='35'
+            
+
+        2020-06-06 03:38:05	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,estado,data,telefone) VALUES ('trtrt','51','NOTICIA','S','2020-06-06 03:06:05','2')
+            
+
+        2020-06-06 03:38:15	
+        INSERT INTO denuncia (comentario,id_publicacao,tipo,estado,data,telefone) VALUES ('tr','11','NOTICIA','S','2020-06-06 03:06:15','3')
